@@ -1,4 +1,4 @@
-package com.sistema.controller;
+package com.sistema.lanchonete.sa.controller;
 
 import java.util.List;
 
