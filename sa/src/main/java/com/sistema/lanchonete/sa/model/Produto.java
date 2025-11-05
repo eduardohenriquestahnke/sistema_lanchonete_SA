@@ -1,7 +1,7 @@
 package com.sistema.lanchonete.sa.model;
 
 public class Produto {
-    private int idProduto;
+    private final int idProduto;
     private String nomeProduto;
     private String descricaoProduto;
     private Float valorProduto;
