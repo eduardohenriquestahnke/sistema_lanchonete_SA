@@ -1,4 +1,4 @@
-package com.sistema.lanchonete.sa.model;
+package com.sistema.lanchonete.sa.model.entity;
 
 public class Produto {
     private int idProduto;
