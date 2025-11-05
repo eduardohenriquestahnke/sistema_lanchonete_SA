@@ -6,4 +6,3 @@ public interface ProdutoRepository {
     void atualizar(Produto produto); // Update
     void deletar(int idProduto); // Delete
 }
-
