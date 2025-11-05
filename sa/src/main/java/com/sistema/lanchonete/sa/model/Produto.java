@@ -1,0 +1,38 @@
+package com.sistema.lanchonete.sa.model;
+
+public class Produto {
+    private int idProduto;
+    private String nomeProduto;
+    private String descricaoProduto;
+    private Float valorProduto;
+
+    public Produto(int idProduto, String nomeProduto, String descricaoProduto, Float valorProduto) {
+        this.idProduto = idProduto;
+        this.nomeProduto = nomeProduto;
+        this.descricaoProduto = descricaoProduto;
+        this.valorProduto = valorProduto;
+    } 
+
+    public String getNomeProduto(){
+        return nomeProduto;
+    }
+    public void setNomeProduto(String nomeProduto){
+        this.nomeProduto = nomeProduto;
+    }
+
+    public String getDescricaoProduto(){
+        return descricaoProduto;
+    }
+    public void setDescricaoProduto(String descricaoProduto){
+        this.descricaoProduto = descricaoProduto;
+    }
+    
+    public Float getValorProduto(){
+        return valorProduto;
+    }
+    public void setValorProduto(Float valorProduto){
+        this.valorProduto = valorProduto;
+    }
+
+    
+}
