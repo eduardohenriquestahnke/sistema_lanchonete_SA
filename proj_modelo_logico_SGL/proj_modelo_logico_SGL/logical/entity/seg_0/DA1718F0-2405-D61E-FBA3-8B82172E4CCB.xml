@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA1718F0-2405-D61E-FBA3-8B82172E4CCB" name="t_sgl_itemPedido">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:25:17 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_itemPedido" id="581ED491-8C78-77DA-C9AE-E8CBAEF15889">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:43:34 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="BDC0E7C9-0E75-A423-C8BC-06733157E98E">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:54:16 UTC</createdTime>
+<generatorID>5B4B67BD-6C47-4432-C186-1EEE5D5FFD81</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>766B1E15-1D75-0B6A-FD50-CAEE04D05337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="0F76FF11-8DE0-7D82-5321-F4D77BA35FC6">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:54:39 UTC</createdTime>
+<generatorID>5E83EB4F-640F-AE8D-254C-F65AA01AE033</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>552FB5C8-EBF9-C83D-8AF6-477006443BE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_qtd" id="C90C83A5-BF53-CD69-FA7A-0A58816AB915">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:43:49 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="55615C6C-D65F-5A0A-35A3-1256C317CFDA">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:44:01 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19341640-964B-8833-0CED-D0D45791D6BE" name="t_sgl_itemPedido PK">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-05 23:43:48 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>581ED491-8C78-77DA-C9AE-E8CBAEF15889</attributeRef>
+<attributeRef>BDC0E7C9-0E75-A423-C8BC-06733157E98E</attributeRef>
+<attributeRef>0F76FF11-8DE0-7D82-5321-F4D77BA35FC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
