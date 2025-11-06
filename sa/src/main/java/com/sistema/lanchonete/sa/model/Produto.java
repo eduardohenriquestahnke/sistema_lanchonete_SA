@@ -6,12 +6,19 @@ public class Produto {
     private String descricaoProduto;
     private Float valorProduto;
 
-    public Produto(int idProduto, String nomeProduto, String descricaoProduto, Float valorProduto) {
+    public Produto() {
         this.idProduto = idProduto;
         this.nomeProduto = nomeProduto;
         this.descricaoProduto = descricaoProduto;
         this.valorProduto = valorProduto;
     } 
+
+    public int getIdProduto(){
+        return idProduto;
+    }
+    public void setIdProduto(int idProduto){
+        this.idProduto = idProduto;
+    }
 
     public String getNomeProduto(){
         return nomeProduto;
