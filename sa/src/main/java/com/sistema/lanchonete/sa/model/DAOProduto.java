@@ -11,7 +11,7 @@ import com.sistema.lanchonete.sa.resources.ConnectionFactory;
 
 public class DAOProduto {
 
-    public void save(Produto produto){
+    public void saveProduto(Produto produto){
         String sql = "INSERT INTO produto(ds_produto, nm_produto, vl_unitario) VALUES (?, ?, ?)";
         Connection conn = null;
         PreparedStatement stmt = null;

@@ -1,16 +1,13 @@
 package com.sistema.lanchonete.sa.model;
 
 public class Produto {
-    private final int idProduto;
+    private int idProduto;
     private String nomeProduto;
     private String descricaoProduto;
     private Float valorProduto;
 
     public Produto() {
-        this.idProduto = idProduto;
-        this.nomeProduto = nomeProduto;
-        this.descricaoProduto = descricaoProduto;
-        this.valorProduto = valorProduto;
+
     } 
 
     public int getIdProduto(){
