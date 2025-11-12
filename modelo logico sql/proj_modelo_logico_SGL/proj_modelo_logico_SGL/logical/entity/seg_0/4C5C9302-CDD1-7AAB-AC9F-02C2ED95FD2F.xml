@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C5C9302-CDD1-7AAB-AC9F-02C2ED95FD2F" name="t_sgl_usuario">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:23:07 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="BC113930-1654-EDBE-ABFE-E789ABB02E12">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:23:15 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nivelAcesso" id="6511BB28-F11B-F171-DF35-948599FFAF25">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:24:48 UTC</createdTime>
+<generatorID>8B366E3D-45EC-5129-EC1B-72C792BD58CD</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>F9BCDAC0-5F53-FE4F-4A7A-AF66EB7F59B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="397F361E-0697-248A-7570-E8E07F8C18DB">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:23:30 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_login" id="EB0FB7A5-6509-EC48-D714-FBE15589136F">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:23:52 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_senha" id="39EB6BD8-F5D0-8E97-7EF4-2F39A91D290A">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:24:08 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6A5BEC8-0446-C769-8837-B3853FD99DD9" name="PK_Usuario">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:23:24 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BC113930-1654-EDBE-ABFE-E789ABB02E12</newElementsIDs>
+<usedAttributes>
+<attributeRef>BC113930-1654-EDBE-ABFE-E789ABB02E12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

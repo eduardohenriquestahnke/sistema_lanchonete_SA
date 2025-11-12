@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86632D62-F2BE-3599-0A2C-8D121BEF982E" name="t_sgl_tipoEndereco">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:37:15 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipoEndereco" id="7BD3DF9E-23D9-5D6D-DC18-471AF3017FCF">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:37:29 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipoEndereco" id="0041BDCE-F1E1-35E4-572D-79DB296E4F73">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:38:09 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF070CF1-7245-40F7-877B-7CB436396A7A" name="PK_Endereco">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:37:36 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7BD3DF9E-23D9-5D6D-DC18-471AF3017FCF</newElementsIDs>
+<usedAttributes>
+<attributeRef>7BD3DF9E-23D9-5D6D-DC18-471AF3017FCF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
