@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0864E1CE-2924-59DB-C9D5-F126BFAFCBC8" name="t_sgl_produto">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:19:21 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="DA1511A7-875E-0851-0979-53674300103E">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:19:40 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoriaProduto" id="F7599661-24ED-0FAB-4E9E-3623FC066ED4">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:20:57 UTC</createdTime>
+<generatorID>C2654822-3009-C370-3EF0-D3AC40D8D86D</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>0EBEADE6-96FE-EB47-3C10-FA9B32CB0143</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="0EAD764D-D0BA-C9BA-D3AD-E75FE4500B3F">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:19:52 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto" id="CE9C6B6B-E533-4D7A-2AF2-F47193D7EC6E">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:20:17 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="336372EB-24B6-B626-4488-C6871AD1CCE8">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:20:30 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D720B2ED-8A70-55FD-F61E-30BE3142EA44" name="PK_Produto">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:19:47 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>DA1511A7-875E-0851-0979-53674300103E</newElementsIDs>
+<usedAttributes>
+<attributeRef>DA1511A7-875E-0851-0979-53674300103E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

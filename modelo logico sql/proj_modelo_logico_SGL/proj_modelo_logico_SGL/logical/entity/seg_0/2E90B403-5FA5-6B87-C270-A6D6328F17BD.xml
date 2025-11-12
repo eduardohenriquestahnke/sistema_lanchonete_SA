@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E90B403-5FA5-6B87-C270-A6D6328F17BD" name="t_sgl_pedido">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:27:26 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pedido" id="7DF8D53C-EA83-E48C-AB75-545ADA85C426">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:27:34 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_statusPedido" id="6FC9913E-934D-BC96-A411-B9968730DE54">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:55:48 UTC</createdTime>
+<generatorID>B81C3A23-052C-D66E-516B-DF8464BE7CC8</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>CFC4CD1F-9051-D3F5-7DFE-FC985CC9F9FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_formaPagamento" id="6299A85D-B489-E392-5A23-65094C9EB076">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:55:55 UTC</createdTime>
+<generatorID>B6F34395-0470-A22A-49EF-739E82C76E22</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>CB0FF828-F646-E099-C887-CD4DF65B5D81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="E30DA2C0-A987-F752-C039-D06AEA28400B">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:56:36 UTC</createdTime>
+<generatorID>021A4D60-5AFB-6A7D-72BC-B372940D2B85</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>5A79D25A-6333-A24A-3346-11CAE4F21591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_desconto" id="752627BC-4C50-6EA0-38AA-AB83793E301E">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 22:07:37 UTC</createdTime>
+<generatorID>1E680DD7-63FB-81DC-CDE2-AD325779B76F</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>2D60735A-4778-D6A7-6C20-E92B5673CB99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pedido" id="D9346C73-9823-F32E-9823-64A7CF481F69">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:27:47 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total" id="1BBB3FFD-3AEA-03BA-DE1B-5653B973BB7C">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:28:21 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0370C05-0D18-75BA-1454-F8413725BD43" name="PK_Pedido">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:27:40 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7DF8D53C-EA83-E48C-AB75-545ADA85C426</newElementsIDs>
+<usedAttributes>
+<attributeRef>7DF8D53C-EA83-E48C-AB75-545ADA85C426</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
