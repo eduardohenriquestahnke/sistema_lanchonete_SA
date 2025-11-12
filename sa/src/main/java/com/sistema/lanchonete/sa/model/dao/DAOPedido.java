@@ -1,4 +1,4 @@
-package com.sistema.lanchonete.sa.model;
+package com.sistema.lanchonete.sa.model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.sistema.lanchonete.sa.model.entity.Pedido;
 import com.sistema.lanchonete.sa.resources.ConnectionFactory;
 
 public class DAOPedido {

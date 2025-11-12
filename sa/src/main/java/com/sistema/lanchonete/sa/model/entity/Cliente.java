@@ -1,4 +1,4 @@
-package com.sistema.lanchonete.sa.model;
+package com.sistema.lanchonete.sa.model.entity;
 
 import java.sql.Date;
 
@@ -17,7 +17,7 @@ public class Cliente {
     public int getIdCliente(){
         return idCliente;
     }
-    public void setIdCliente(int id){
+    public void setIdCliente(int idCliente){
         this.idCliente = idCliente;
     }
 

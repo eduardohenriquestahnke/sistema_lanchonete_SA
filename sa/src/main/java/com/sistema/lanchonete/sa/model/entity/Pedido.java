@@ -1,4 +1,4 @@
-package com.sistema.lanchonete.sa.model;
+package com.sistema.lanchonete.sa.model.entity;
 
 import java.sql.Date;
 
