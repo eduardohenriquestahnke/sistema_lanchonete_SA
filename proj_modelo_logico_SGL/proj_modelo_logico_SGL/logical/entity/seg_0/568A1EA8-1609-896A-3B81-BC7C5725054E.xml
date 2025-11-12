@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="568A1EA8-1609-896A-3B81-BC7C5725054E" name="t_sgl_ItemPedido">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:25:15 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_itemPedido" id="957679F5-3FAC-B1CA-FAF8-AF01F65A4DF1">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:25:31 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="5603560E-1815-6984-4F04-91D11801DB0F">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-12 21:52:42 UTC</createdTime>
+<generatorID>C6EE7CA1-0D80-3EE2-33A8-1EB736A67332</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>7DF8D53C-EA83-E48C-AB75-545ADA85C426</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="20537E1F-B7F1-3FF1-4966-3CD650DA025C">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:26:56 UTC</createdTime>
+<generatorID>67EF1B7C-07CA-4FD2-720A-BC3EF6CD36BA</generatorID>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<referedAttribute>DA1511A7-875E-0851-0979-53674300103E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_itemProduto" id="110328DC-B4F3-9667-6CA2-53FF1106379E">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:26:08 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="9497D5ED-EEC1-F690-43FC-53FCD1DEE87B">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:26:28 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44A04AA9-CAFB-6E14-C272-F97D71C1A63E" name="PK_ItemPedido">
+<createdBy>eduardo_stahnke</createdBy>
+<createdTime>2025-11-07 00:25:39 UTC</createdTime>
+<ownerDesignName>proj_modelo_logico_SGL</ownerDesignName>
+<engineerTo>
+<item key="EF60C91D-ADDB-5FDC-AD47-1A90585A3C7D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>957679F5-3FAC-B1CA-FAF8-AF01F65A4DF1,67EF1B7C-07CA-4FD2-720A-BC3EF6CD36BA,C6EE7CA1-0D80-3EE2-33A8-1EB736A67332</newElementsIDs>
+<usedAttributes>
+<attributeRef>957679F5-3FAC-B1CA-FAF8-AF01F65A4DF1</attributeRef>
+<attributeRef>20537E1F-B7F1-3FF1-4966-3CD650DA025C</attributeRef>
+<attributeRef>5603560E-1815-6984-4F04-91D11801DB0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
