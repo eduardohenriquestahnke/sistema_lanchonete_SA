@@ -31,7 +31,7 @@ public class Produto {
         this.descricaoProduto = descricaoProduto;
     }
     
-    public Float getValorProduto(){
+    public float getValorProduto(){
         return valorProduto;
     }
     public void setValorProduto(Float valorProduto){
