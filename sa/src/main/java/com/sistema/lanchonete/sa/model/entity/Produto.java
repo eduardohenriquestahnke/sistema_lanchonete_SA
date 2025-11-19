@@ -7,10 +7,7 @@ public class Produto {
     private Float valorProduto;
 
     public Produto() {
-        this.idProduto = idProduto;
-        this.nomeProduto = nomeProduto;
-        this.descricaoProduto = descricaoProduto;
-        this.valorProduto = valorProduto;
+
     } 
 
     public int getIdProduto(){
