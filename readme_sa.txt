@@ -41,15 +41,17 @@ RF04	O sistema deve permitir remover um produto.
 RF05	O sistema deve permitir registrar novos clientes.					
 RF06	O sistema deve mostrar todos os clientes cadastrados.					
 RF07	O sistema deve permitir alterar as informações de um cliente.					
-RF08	O sistema deve permitir excluir um cliente.					
-RF09	O sistema deve permitir criar um pedido escolhendo um cliente e os produtos.					
-RF10	O sistema deve mostrar todos os pedidos feitos.					
-RF11	O sistema deve permitir alterar informações de um pedido.					
-RF12	O sistema deve permitir excluir um pedido.					
-RF13	O sistema deve permitir adicionar produtos dentro do pedido.					
-RF14	O sistema deve permitir mudar o status do pedido.					
-RF15	O sistema deve realizar salvamentos e buscas de forma segura.					
+RF08	O sistema deve permitir excluir um cliente.			
+RF09	O sistema deve permitir o cliente fazer um pedido.		
+RF10	O sistema deve permitir adicionar produtos dentro do pedido.				
+RF11	O sistema deve mostrar todos os pedidos feitos pelo cliente.					
+RF12	O sistema deve permitir alterar informações de um pedido.					
+RF13  O sistema deve permitir excluir um pedido.					
+RF14	O sistema deve permitir mudar o status do pedido.		
+RF15  O sistema deve permitir o cliente escolher a forma de pagamento do pedido.
 RF16	O sistema deve permitir que usuários façam login.					
-RF17	O sistema deve ter uma tela para cadastrar e consultar produtos.					
-RF18	O sistema deve ter uma tela para cadastrar e consultar clientes.					
-RF19	O sistema deve ter uma tela para criar pedidos e atualizar o status.	
+RF17	O sistema deve permitir o cadastro de produtos.					
+RF18	O sistema deve permitir o cadastro clientes.					
+
+
+
