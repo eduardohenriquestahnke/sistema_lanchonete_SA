@@ -2,13 +2,11 @@
 
 📋 Descrição do Projeto
 
-Sistema desktop em Java Swing desenvolvido para informatizar os processos de uma lanchonete em expansão. O sistema substitui os pedidos manuais em papel, oferecendo controle completo de produtos, clientes e pedidos com persistência em banco de dados.
+Sistema desktop em Java Swing desenvolvido para gerenciar os pedidos de uma lanchonete. O sistema substitui os pedidos manuais em papel, oferecendo controle completo de produtos, clientes e pedidos com persistência em banco de dados.
 
 🚀 Como Funciona o Fluxo
 
-Cadastro Inicial;
-
-Funcionários criam categorias de produtos;
+Login;
 
 Produtos são cadastrados com preços;
 
@@ -18,8 +16,6 @@ Cliente acessa o sistema;
 
 Seleciona produtos desejados;
 
-Aplica cupom (se disponível);
-
 Escolhe forma de pagamento;
 
 Confirma o pedido;
@@ -28,27 +24,16 @@ Acompanhamento;
 
 Status do pedido é atualizado em tempo real;
 
-Cliente pode acompanhar cada etapa;
-
-Após entrega, pode deixar avaliação;
-
-
-
-
-
-
-
-
       
 🏗️ Tecnologias Utilizadas
 
-Linguagem: Java
+Linguagem: Java;
 
-Interface: Java Swing
+Interface: Java Swing;
 
-Banco de Dados: MySQL
+Banco de Dados: MySQL;
 
-Testes: JUnit
+Testes: JUnit;
 
 
 🚀 Como Executar o Projeto
@@ -59,7 +44,7 @@ git clone https://github.com/eduardohenriquestahnke/sistema_lanchonete_SA.git
 2. Entre na pasta do projeto
 cd sistema-gestao-lanchonete
 
-3. Abra na sua IDE favorita
+3. Abra IDE de sua escolha
 - NetBeans: File → Open Project
 - VS Code: File → Open Folder
 - IntelliJ: File → Open
@@ -69,15 +54,15 @@ cd sistema-gestao-lanchonete
 
 🤝 Contribuindo
 
-Faça um fork do projeto
+Faça um fork do projeto;
 
-Crie uma branch para sua feature
+Crie uma branch para sua feature;
 
-Commit suas mudanças
+Commit suas mudanças;
 
-Push para a branch
+Push para a branch;
 
-Abra um Pull Request
+Abra um Pull Request;
 
 🔗 Links Importantes
 
@@ -89,9 +74,9 @@ Documentação: https://docs.google.com/document/d/1-O0L-ABDQhZihCLvJvfMdnfU9hoJ
 
 Para questões técnicas ou dúvidas sobre o projeto:
 
-Consulte a documentação no repositório
+Consulte a documentação no repositório;
 
-Abra uma issue no GitHub
+Abra uma issue no GitHub;
 
 Desenvolvido por: Eduardo Henrique Stahnke, Heitor Otto Supis, Wesley Fabrizio Zomer
 
